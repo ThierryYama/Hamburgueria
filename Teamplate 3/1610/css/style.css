@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 :root {
@@ -20,6 +21,7 @@ header {
   justify-content: space-between;
   padding: 35px 40px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 nav ul {
@@ -32,7 +34,7 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: var(--secondary);
-  font-size: 20px;
+  font-size: 1,25rem;
 }
 
 nav ul li a:hover {
@@ -47,6 +49,7 @@ nav ul li a:hover {
   flex-direction: row;
   align-items: center;
   height: 600px;
+  flex-wrap: wrap;
 }
 
 .main-text {
@@ -55,19 +58,21 @@ nav ul li a:hover {
   width: 50%;
   align-items: flex-start;
   color: var(--secondary);
+  flex-wrap: wrap;
 }
 
 .main-text h1 {
-  font-size: 120px;
+  font-size: 7.5rem;
 }
 
 .main-text h2 {
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 
 .main-img {
   width: 50%;
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .preco {
@@ -100,7 +105,7 @@ nav ul li a:hover {
 }
 
 .sec-text h2 {
-  font-size: 50px;
+  font-size: 3.12rem;
   color: var(--secondary);
 }
 
@@ -108,7 +113,7 @@ nav ul li a:hover {
   width: 70%;
   text-align: center;
   counter-reset: var(--secondary);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .container-card {
@@ -129,7 +134,7 @@ nav ul li a:hover {
 }
 
 .card h2 {
-  font-size: 35px;
+  font-size: 2.18rem;
   color: var(--secondary);
 }
 
@@ -152,7 +157,7 @@ nav ul li a:hover {
 .card button a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 1.12rem;
 }
 
 #section-2 {
@@ -186,7 +191,7 @@ input[type="time"] {
   border: 1px solid var(--primary);
   background-color: var(--primary);
   padding: 0px 15px;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 input[type="submit"] {
@@ -196,7 +201,7 @@ input[type="submit"] {
   border-radius: 10px;
   background-color: var(--tertiary);
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 input[type="submit"]:hover {
