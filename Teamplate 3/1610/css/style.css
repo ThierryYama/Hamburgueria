@@ -14,27 +14,26 @@
   --tertiary: RGB(223, 28, 28);
 }
 
-header {
+.container-header {
   background-color: var(--primary);
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  padding: 35px 40px;
   align-items: center;
   flex-wrap: wrap;
+  
+  padding: 0px 50px;
+  height: 70px;
 }
 
 nav ul {
   display: flex;
-  flex-direction: row;
-  gap: 25px;
+  gap: 20px;
   list-style: none;
 }
 
 nav ul li a {
   text-decoration: none;
   color: var(--secondary);
-  font-size: 1,25rem;
 }
 
 nav ul li a:hover {
@@ -43,22 +42,25 @@ nav ul li a:hover {
 
 #main {
   background-color: var(--primary);
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+
   width: 100%;
   padding: 35px 40px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 600px;
-  flex-wrap: wrap;
 }
 
 .main-text {
+  width: 40%;
+  
   display: flex;
   flex-direction: column;
-  width: 50%;
-  align-items: flex-start;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
+  
   color: var(--secondary);
-  flex-wrap: wrap;
 }
 
 .main-text h1 {
@@ -70,15 +72,17 @@ nav ul li a:hover {
 }
 
 .main-img {
-  width: 50%;
+  width: 40%;
+}
+
+.main-img figure{
   display: flex;
-  flex-wrap: wrap;
 }
 
 .preco {
   position: absolute;
-  top: 500px;
-  right: 780px;
+  top: 390px;
+  right: 850px;
 }
 
 #section-1 {
@@ -120,7 +124,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  padding: 35px 40px;
+  padding: 35px 0px;
   align-items: center;
 }
 
@@ -217,18 +221,22 @@ input[type="email"]::placeholder {
   color: var(--secondary);
 }
 
+input[type="number"]::placeholder {
+  color: var(--secondary);
+}
+
 footer {
   background-image: url(../img/rodape/fundo.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 650px;
+  height: 600px;
   padding: 35px 40px;
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+
 }
 
 .footer-text {
@@ -265,11 +273,17 @@ footer {
   gap: 20px;
 }
 
+.footer-row{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
 .container-social {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  position: relative;
-  top: 250px;
-  right: 100px;
+  justify-content: flex-end;
 }
+

@@ -1,27 +1,79 @@
 @media screen and (max-width: 480px) {
-    
-    header{
-        justify-content: center;
-        height: 120px;
-        gap: 10px;
-    }
+  .container-header {
+    justify-content: center;
+    height: 120px;
+    padding: 0px 30px;
+  }
 
-    #main{
-        flex-direction: column;
-    }
+  .main-text,
+  .main-img {
+    width: 100%;
+  }
 
-    .main-text{
-        align-items: center;
-        width: 100%;
-    }
+  .main-img figure {
+    justify-content: center;
+    height: 250px;
+  }
 
-    .main-text h1{
-        font-size: 5.5rem;
-    }
+  .main-text {
+    align-items: center;
+  }
 
-    .main-img{
-        justify-content: center;
-        width: 100%;
-    }
+  .main-text h1 {
+    font-size: 5.5rem;
+  }
+
+  .preco {
+    position: absolute;
+    top: 550px;
+    right: 220px;
+  }
+
+  .preco img {
+    height: 110px;
+  }
+
+  .sec-text {
+    text-align: center;
+  }
+
+  .sec-text h2 {
+    font-size: 2.12rem;
+  }
+
+  .sec-text p {
+    font-size: 1.1rem;
+  }
+
+  .container-card {
+    flex-direction: column;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-text,
+  .footer-text figure img,
+  .footer-text p {
+    width: 100%;
+  }
+
+  .footer-text span {
+    top: 0px;
+  }
+
+  .container-social {
+    gap: 50px;
+  }
+
+  .container-social figure img {
+    height: 35px;
+  }
 
 }
