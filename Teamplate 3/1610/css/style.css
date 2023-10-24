@@ -56,7 +56,7 @@ nav ul li a:hover {
   
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
   gap: 20px;
   
@@ -64,11 +64,11 @@ nav ul li a:hover {
 }
 
 .main-text h1 {
-  font-size: 7.5rem;
+  font-size: 9.5rem;
 }
 
 .main-text h2 {
-  font-size: 3.75rem;
+  font-size: 5.75rem;
 }
 
 .main-img {
